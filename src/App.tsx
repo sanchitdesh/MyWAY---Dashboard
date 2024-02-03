@@ -23,7 +23,7 @@ const ProductManagement = lazy(
 const BarCharts = lazy(() => import("./pages/charts/BarCharts"));
 const PieCharts = lazy(() => import("./pages/charts/PieCharts"));
 const LineCharts = lazy(() => import("./pages/charts/LineCharts"));
-const StopWatch = lazy(() => import("./pages/apps/Stopwatch"));
+const Stopwatch = lazy(() => import("./pages/apps/Stopwatch"));
 const Toss = lazy(() => import("./pages/apps/Toss"));
 const Coupon = lazy(() => import("./pages/apps/Coupon"));
 const App = () => {
