@@ -1,12 +1,6 @@
-// import Dashboard from "./pages/Dashboard";
-// import NewProduct from "./pages/management/NewProduct";
-// import Products from "./pages/Products";
-// import Transaction from "./pages/Transaction";
-// import Customers from "./pages/Customers";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Loader from "./components/Loader";
-import Stopwatch from "./pages/apps/Stopwatch";
 import { Link } from "react-router-dom";
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Products = lazy(() => import("./pages/Products"));
@@ -23,7 +17,7 @@ const ProductManagement = lazy(
 const BarCharts = lazy(() => import("./pages/charts/BarCharts"));
 const PieCharts = lazy(() => import("./pages/charts/PieCharts"));
 const LineCharts = lazy(() => import("./pages/charts/LineCharts"));
-const StopWatch = lazy(() => import("./pages/apps/Stopwatch"));
+const Stopwatch = lazy(() => import("./pages/apps/Stopwatch"));
 const Toss = lazy(() => import("./pages/apps/Toss"));
 const Coupon = lazy(() => import("./pages/apps/Coupon"));
 const App = () => {
