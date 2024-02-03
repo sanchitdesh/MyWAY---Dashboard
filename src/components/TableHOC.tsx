@@ -1,9 +1,9 @@
 import {
-  useTable,
-  TableOptions,
   Column,
-  useSortBy,
+  TableOptions,
   usePagination,
+  useSortBy,
+  useTable,
 } from "react-table";
 
 import {

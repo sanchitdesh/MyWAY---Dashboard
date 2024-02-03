@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import AdminSidebar from "../../components/AdminSidebar";
 import { OrderItemType, OrderType } from "../../types";
-import { Link } from "react-router-dom";
 
 const img =
   "https://images.pexels.com/photos/6246831/pexels-photo-6246831.jpeg";

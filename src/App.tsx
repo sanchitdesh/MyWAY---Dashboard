@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Loader from "./components/Loader";
-import { Link } from "react-router-dom";
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Products = lazy(() => import("./pages/Products"));
 const Transaction = lazy(() => import("./pages/Transaction"));

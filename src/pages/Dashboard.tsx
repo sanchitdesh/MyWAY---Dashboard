@@ -1,10 +1,10 @@
+import { BiMaleFemale } from "react-icons/bi";
 import { BsSearch } from "react-icons/bs";
 import { FaRegBell } from "react-icons/fa";
-import AdminSidebar from "../components/AdminSidebar";
-import { HiTrendingUp, HiTrendingDown } from "react-icons/hi";
+import { HiTrendingDown, HiTrendingUp } from "react-icons/hi";
 import data from "../assets/data.json";
+import AdminSidebar from "../components/AdminSidebar";
 import { BarChart, DoughnutChart } from "../components/Charts";
-import { BiMaleFemale } from "react-icons/bi";
 import Table from "../components/DashboardTable";
 const userImg =
   "https://w7.pngwing.com/pngs/522/396/png-transparent-computer-icons-profile-miscellaneous-logo-profile-thumbnail.png";
