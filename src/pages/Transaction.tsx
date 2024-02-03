@@ -6,9 +6,9 @@ import TableHOC from "../components/TableHOC";
 
 interface DataType {
   user: string;
-  amount: string;
-  discount: string;
-  quantity: string;
+  amount: number;
+  discount: number;
+  quantity: number;
   status: ReactElement;
   action: ReactElement;
 }

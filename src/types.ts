@@ -1,7 +1,7 @@
 export type OrderItemType = {
   name: string;
   photo: string;
-  price: string;
+  price: number;
   quantity: number;
   _id: string;
 };
@@ -10,7 +10,7 @@ export type OrderType = {
   name: string;
   address: string;
   city: string;
-  country: number;
+  country: string;
   state: string;
   pinCode: number;
   status: "Processing" | "Shipped" | "Delivered";
